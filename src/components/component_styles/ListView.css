@@ -1,0 +1,128 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 40px;
+    left: 25px;
+    margin: auto;
+    overflow: hidden;
+    max-width: 1200px;
+    min-height: 800px;
+    max-height: 800px;
+    border-radius: 10px;
+    background-color: #fff;
+    align-items: center;
+    z-index: 0;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1660px) {
+    .container {
+        left: 8%;
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .container {
+        left: 10%;
+        max-width: 75%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        left: 15%;
+        max-width: 65%;
+    }
+}
+
+.sub-container,
+.trip-sub-container {
+    position: relative;
+    top: 50px;
+    width: 80%;
+    height: auto;
+    font-size: 16px;
+}
+
+.trip-sub-container {
+    width: 90%;
+}
+
+
+.top-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.top-btns .add-btn {
+    background-color: #B3D0FF;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    outline: 0;
+    border: 0;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-right: auto;
+    
+}
+
+.top-btns .navigations {
+    text-align: center;
+    margin-right: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    justify-self: center;
+}
+
+.text-center {
+    margin-bottom: 20px;
+}
+
+.top-btns .add-btn:hover {
+    background-color: #1a83ff;
+}
+
+.action-btn {
+    width: 60px;
+}
+
+.btn {
+    padding: .2rem;
+}
+
+.table-row > td{
+    padding: .2rem .2rem;
+}
+
+td.fitwidth {
+    width: 50px;
+    white-space: nowrap;
+}

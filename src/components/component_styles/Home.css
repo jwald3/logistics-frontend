@@ -1,0 +1,42 @@
+.contain {
+  width: 75%;
+  margin: 50px auto;
+  margin-left: 275px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  max-width: 1300px;
+}
+
+.cards {
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    height: 500px;
+    max-width: 400px;
+    border-radius: 4px;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.card-logo {
+    font-size: 108px;
+}
+
+.truck-card:hover {
+    color: #9E3A0E;
+}
+
+.facility-card:hover {
+    color: #182A9E;
+}
+
+.trip-card:hover {
+    color: #0E9E62;
+}
+
+.info-btn {
+    text-decoration: none;
+    background: transparent;
+    border: none;
+}
