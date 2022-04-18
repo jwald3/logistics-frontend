@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const TRUCK_API_BASE_URL =
-    "http://logisticsmanager-env.eba-276mvvqm.us-east-1.elasticbeanstalk.com/api/trucks";
+    "https://logisticsmanager-env.eba-276mvvqm.us-east-1.elasticbeanstalk.com/api/trucks";
 
 class TruckService {
     getTrucks() {

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const FACILITY_API_BASE_URL =
-    "http://logisticsmanager-env.eba-276mvvqm.us-east-1.elasticbeanstalk.com/api/facilities";
+    "https://logisticsmanager-env.eba-276mvvqm.us-east-1.elasticbeanstalk.com/api/facilities";
 
 class FacilityService {
     getFacilities() {

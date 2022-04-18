@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const TRIP_API_BASE_URL =
-    "http://logisticsmanager-env.eba-276mvvqm.us-east-1.elasticbeanstalk.com/api/trips";
+    "https://logisticsmanager-env.eba-276mvvqm.us-east-1.elasticbeanstalk.com/api/trips";
 
 class TripService {
     getTrips() {
