@@ -74,16 +74,25 @@ span {
   margin-left: 16px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 800px) {
   .nav-menu {
     width: 100%;
     height: auto;
     position: relative;
+    top: -100%;
+    left: 0;
+    transition: 850ms;
   }
   .nav-menu {
     float: left;
   }
   div.content {
     margin-left: 0;
+  }
+  .nav-menu.active {
+    top: 0;
+    transition: 350ms;
+    z-index: 1;
+    left: 0;
   }
 }
