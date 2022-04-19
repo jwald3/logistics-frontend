@@ -4,19 +4,19 @@
 .trip-update-container,
 .facility-view-container,
 .facility-update-container {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 40px;
-    left: 100px;
-    margin: auto;
-    overflow: hidden;
-    max-width: 1200px;
-    min-height: 800px;
-    max-height: 800px;
-    border-radius: 10px;
-    background-color: #fff;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 40px;
+  left: 100px;
+  margin: auto;
+  overflow: hidden;
+  max-width: 1200px;
+  min-height: 800px;
+  max-height: 800px;
+  border-radius: 10px;
+  background-color: #fff;
+  align-items: center;
 }
 
 .truck-sub-container,
@@ -24,30 +24,30 @@
 .trip-sub-container,
 .trip-update-sub-container,
 .facility-sub-container,
-.facility-update-sub-container  {
-    position: relative;
-    top: 50px;
-    width: 80%;
-    height: 80%;
+.facility-update-sub-container {
+  /* position: relative;
+    top: 50px; */
+  width: 100%;
+  height: 80%;
 }
 
 .heading {
-    display: flex;
-    flex-wrap: wrap;
-    width: 95%;
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  text-align: center;
 }
 
 .heading h2 {
-    margin: auto;
+  margin: auto;
 }
 
 .back-button {
-    background-color: transparent;
-    border: none;
-    color: #ABB1B6;
-    font-size: 36px;
-    justify-self: start;
+  background-color: transparent;
+  border: none;
+  color: #abb1b6;
+  font-size: 36px;
+  justify-self: start;
 }
 
 .truck-button-row,
@@ -56,20 +56,20 @@
 .update-trip-button-row,
 .facility-button-row,
 .update-facility-button-row {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-bottom: 50px;
 }
 
 .update-truck-button-row,
 .update-trip-button-row {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .truck-button-row button,
@@ -77,84 +77,84 @@
 .trip-button-row button,
 .update-trip-button-row button,
 .facility-button-row button,
-.update-facility-button-row button  {
-    width: 150px;
-    height: 50px;
-    font-size: 16px;
+.update-facility-button-row button {
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
 }
 
 .update-truck-button-row button,
 .trip-button-row button,
 .update-trip-button-row button,
 .update-facility-button-row button {
-    margin: 20px;
+  margin: 20px;
 }
 
 .delete-btn {
-    background-color: #D12533;
-    font-size: 16px;
-    font-weight: bold;
+  background-color: #d12533;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .related-trips {
-    height: 400px;
-    padding-top: 20px;
+  height: 400px;
+  padding-top: 20px;
 }
 
 .related-trips table {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .truck-info-row,
-.trip-info-row, 
+.trip-info-row,
 .facility-info-row {
-    margin-top: 20px;
-    font-size: 18px;
+  margin-top: 20px;
+  font-size: 18px;
 }
 
 .truck-info,
 .trip-info,
 .facility-info {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .truck-info label,
 .trip-info label,
 .facility-info label {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .form-group {
-    margin-bottom: 15px;
-    display: flex;
-    flex-direction: column;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-group label {
-    margin-bottom: 10px;
-    font-size: 16px;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .form-group input {
-    width: 100%;
-    font-size: 16px;
-    height: 36px;
+  width: 100%;
+  font-size: 16px;
+  height: 36px;
 }
 
 .form-group select {
-    height: 36px;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
+  height: 36px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
 }
 
 .truck-update-form,
 .trip-update-form,
 .facility-update-form {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .facility-button-row {
-    margin-top: 100px;
+  margin-top: 100px;
 }

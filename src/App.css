@@ -1,17 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Lato', 'sans-serif';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", "sans-serif";
 }
 
-html, body {
-    height: 100%;
-    overflow: hidden;
-    min-height:100%;
-    margin: 0;
-    padding: 0;
-    background-color: #D8DBE2;
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #d8dbe2;
 }

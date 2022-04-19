@@ -1,42 +1,50 @@
 .contain {
-  width: 75%;
-  margin: 50px auto;
-  margin-left: 275px;
+  width: 70%;
+  height: 100%;
+  margin-left: 20%;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-bottom: 10%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 25px;
-  max-width: 1300px;
+  grid-gap: 0%;
+  max-width: 100%;
 }
 
 .cards {
-    background-color: #fff;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-    height: 500px;
-    max-width: 400px;
-    border-radius: 4px;
-    padding: 20px;
-    padding-top: 40px;
-    text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  height: 100%;
+  /* min-width: 75%; */
+  max-width: 100%;
+  border-radius: 4px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 25%;
+  padding-bottom: 20%;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .card-logo {
-    font-size: 108px;
+  font-size: 108px;
 }
 
 .truck-card:hover {
-    color: #9E3A0E;
+  color: #9e3a0e;
 }
 
 .facility-card:hover {
-    color: #182A9E;
+  color: #182a9e;
 }
 
 .trip-card:hover {
-    color: #0E9E62;
+  color: #0e9e62;
 }
 
 .info-btn {
-    text-decoration: none;
-    background: transparent;
-    border: none;
+  text-decoration: none;
+  background: transparent;
+  border: none;
 }
