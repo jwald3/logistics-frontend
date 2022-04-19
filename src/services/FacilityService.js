@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const FACILITY_API_BASE_URL = "https://logi-manager.com/api/trips";
+const FACILITY_API_BASE_URL = "https://api.logi-manager.com/trips";
 
 class FacilityService {
     getFacilities() {

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const TRUCK_API_BASE_URL = "https://logi-manager.com/api/trucks";
+const TRUCK_API_BASE_URL = "https://api.logi-manager.com/trucks";
 
 class TruckService {
     getTrucks() {

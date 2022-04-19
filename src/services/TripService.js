@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const TRIP_API_BASE_URL = "https://logi-manager.com/api/trips";
+const TRIP_API_BASE_URL = "https://api.logi-manager.com/trips";
 
 class TripService {
     getTrips() {
