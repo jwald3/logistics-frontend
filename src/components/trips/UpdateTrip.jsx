@@ -83,7 +83,7 @@ const UpdateTrip = () => {
                         <div className='form-group'>
                             <label>End Date:</label>
                             <input required type='datetime-local' placeholder='End Date' name="endDate" className="form-control" 
-                                value={endDate} onChange={(event) => setEndDate(event.target.value)}/>
+                                value={endDate} min={startDate} onChange={(event) => setEndDate(event.target.value)}/>
                         </div>
                         {<div className='form-group'>
                             <label>Origin Facility:</label>
