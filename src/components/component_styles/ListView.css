@@ -1,41 +1,20 @@
 .container {
   display: flex;
   flex-direction: column;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 10%;
   overflow: hidden;
-  max-width: 60%;
+  max-width: 80%;
   height: 100%;
   min-height: 100%;
-  border-radius: 10px;
+  border-radius: 1%;
   background-color: #fff;
   align-items: center;
   z-index: 0;
   background-color: #fff;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2% 2% 0 rgba(0, 0, 0, 0.2);
 }
-
-/* @media (max-width: 1660px) {
-  .container {
-    left: 8%;
-    max-width: 80%;
-  }
-} */
-
-/* @media (max-width: 1400px) {
-  .container {
-    left: 10%;
-    max-width: 75%;
-  }
-}
-
-@media (max-width: 1200px) {
-  .container {
-    left: 15%;
-    max-width: 65%;
-  }
-} */
 
 .sub-container,
 .trip-sub-container {
@@ -43,7 +22,7 @@
   top: 0;
   width: 100%;
   min-height: 100%;
-  font-size: 10px;
+  font-size: 1rem;
   padding: 5% 10%;
 }
 
@@ -66,11 +45,11 @@
   height: 100%;
   outline: 0;
   border: 0;
-  border-radius: 2px;
-  letter-spacing: 1px;
+  border-radius: 1%;
+  letter-spacing: 1%;
   cursor: pointer;
   margin-right: auto;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 .top-btns .navigations {
@@ -91,7 +70,7 @@ ul {
 }
 
 .action-btn {
-  width: 60px;
+  width: 5%;
 }
 
 .btn {
@@ -103,6 +82,6 @@ ul {
 }
 
 td.fitwidth {
-  width: 50px;
+  width: 5%;
   white-space: nowrap;
 }
