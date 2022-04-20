@@ -225,4 +225,8 @@
   .sub-container table {
     width: 100%;
   }
+
+  body {
+    font-size: .5rem;
+  }
 }
