@@ -96,12 +96,12 @@
 .related-trips {
   height: 40%;
   width: 90%;
-  padding-top: 5%;
+  padding-top: 0;
   margin: auto;
 }
 
 .related-trips table {
-  margin-top: 5%;
+  margin-top: 0;
 }
 
 .truck-info-row,
