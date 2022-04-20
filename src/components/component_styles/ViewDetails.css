@@ -66,6 +66,10 @@
   width: 90%;
 }
 
+.facility-button-row {
+  margin-top: 5%;
+}
+
 .update-truck-button-row,
 .update-trip-button-row {
   display: flex;
@@ -100,6 +104,10 @@
 .update-trip-button-row button,
 .update-facility-button-row button {
   margin: 4%;
+}
+
+.trip-button-row button {
+  margin: 2%
 }
 
 .delete-btn {
@@ -184,7 +192,7 @@
 }
 
 .trip-button-row {
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
 .truck-heading, 
