@@ -86,7 +86,7 @@ td.fitwidth {
   white-space: nowrap;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -140,7 +140,7 @@ td.fitwidth {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   .table-row > td {
     padding: 0rem 0rem;
     font-size: 1rem;
