@@ -25,6 +25,7 @@
 .facility-update-sub-container {
   width: 90%;
   height: 80%;
+  padding: 0;
 }
 
 .heading {
@@ -108,7 +109,7 @@
 .trip-info-row,
 .facility-info-row {
   margin-top: 5%;
-  font-size: 1.5rem;
+  font-size: 1.0rem;
 }
 
 .truck-info,
