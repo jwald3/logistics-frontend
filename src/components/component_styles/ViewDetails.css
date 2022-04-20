@@ -28,6 +28,10 @@
   padding: 0;
 }
 
+.trip-sub-container {
+  padding: 0;
+}
+
 .heading {
   display: flex;
   margin-top: 2%;
@@ -84,6 +88,11 @@
 
 .facility-button-row span {
   width: 100%;
+}
+
+.update-truck-button-row button,
+.update-trip-button-row button {
+  width: 40%;
 }
 
 .update-truck-button-row button,
@@ -162,6 +171,25 @@
   justify-content: center;
 }
 
-.facility-button-row {
+.truck-update-form,
+.facility-update-form,
+.trip-update-form {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.trip-update-form {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.trip-button-row {
   margin-top: 10%;
+}
+
+.truck-heading, 
+.facility-heading,
+.trip-heading {
+  text-align: center;
+  padding-top: 2%;
 }
