@@ -6,15 +6,13 @@
 .facility-update-container {
   display: flex;
   flex-direction: column;
-  position: relative;
-  top: 40px;
-  left: 100px;
-  margin: auto;
-  overflow: hidden;
-  max-width: 1200px;
-  min-height: 800px;
-  max-height: 800px;
-  border-radius: 10px;
+  max-width: 80%;
+  height: 100%;
+  border-radius: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  margin-top: 2%;
   background-color: #fff;
   align-items: center;
 }
@@ -25,16 +23,15 @@
 .trip-update-sub-container,
 .facility-sub-container,
 .facility-update-sub-container {
-  /* position: relative;
-    top: 50px; */
-  width: 100%;
+  width: 90%;
   height: 80%;
 }
 
 .heading {
   display: flex;
+  margin-top: 2%;
   flex-wrap: wrap;
-  width: 95%;
+  width: 90%;
   text-align: center;
 }
 
@@ -60,7 +57,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  margin-bottom: 50px;
+  margin-bottom: 5%;
 }
 
 .update-truck-button-row,
@@ -97,25 +94,29 @@
 }
 
 .related-trips {
-  height: 400px;
-  padding-top: 20px;
+  height: 40%;
+  width: 90%;
+  padding-top: 5%;
+  margin: auto;
 }
 
 .related-trips table {
-  margin-top: 20px;
+  margin-top: 5%;
 }
 
 .truck-info-row,
 .trip-info-row,
 .facility-info-row {
-  margin-top: 20px;
-  font-size: 18px;
+  margin-top: 5%;
+  font-size: 1.5rem;
 }
 
 .truck-info,
 .trip-info,
 .facility-info {
-  margin-top: 30px;
+  margin-top: 5%;
+  width: 90%;
+  margin-left: 5%;
 }
 
 .truck-info label,
