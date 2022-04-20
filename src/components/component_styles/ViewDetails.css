@@ -44,7 +44,7 @@
   background-color: transparent;
   border: none;
   color: #abb1b6;
-  font-size: 36px;
+  font-size: 2rem;
   justify-self: start;
 }
 
@@ -59,6 +59,7 @@
   flex-direction: row;
   align-items: flex-end;
   margin-bottom: 5%;
+  width: 90%;
 }
 
 .update-truck-button-row,
@@ -76,21 +77,25 @@
 .update-trip-button-row button,
 .facility-button-row button,
 .update-facility-button-row button {
-  width: 150px;
-  height: 50px;
-  font-size: 16px;
+  width: 15%;
+  height: auto;
+  font-size: 1rem;
+}
+
+.facility-button-row span {
+  width: 100%;
 }
 
 .update-truck-button-row button,
 .trip-button-row button,
 .update-trip-button-row button,
 .update-facility-button-row button {
-  margin: 20px;
+  margin: 4%;
 }
 
 .delete-btn {
   background-color: #d12533;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -127,24 +132,24 @@
 }
 
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 3%;
   display: flex;
   flex-direction: column;
 }
 
 .form-group label {
-  margin-bottom: 10px;
-  font-size: 16px;
+  margin-bottom: 2%;
+  font-size: 1rem;
 }
 
 .form-group input {
   width: 100%;
-  font-size: 16px;
-  height: 36px;
+  font-size: 1rem;
+  height: 2rem;
 }
 
 .form-group select {
-  height: 36px;
+  height: 3rem;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
 }
@@ -152,11 +157,11 @@
 .truck-update-form,
 .trip-update-form,
 .facility-update-form {
-  margin-top: 50px;
+  margin-top: 15%;
   display: flex;
   justify-content: center;
 }
 
 .facility-button-row {
-  margin-top: 100px;
+  margin-top: 10%;
 }
