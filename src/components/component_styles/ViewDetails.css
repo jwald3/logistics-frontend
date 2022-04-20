@@ -201,3 +201,11 @@
   text-align: center;
   padding-top: 2%;
 }
+
+@media only screen and (max-width: 800px) {
+  .truck-button-row button,
+  .facility-button-row button,
+  .trip-button-row button {
+      width: 50%;
+  }
+}
