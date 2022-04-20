@@ -139,3 +139,10 @@ td.fitwidth {
     padding: 0.1rem 0.1rem;
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .table-row > td {
+    padding: 0rem 0rem;
+    font-size: 1rem;
+  }
+}
